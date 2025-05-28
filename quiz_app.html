@@ -1,0 +1,205 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>quiz app</title>
+    <link rel="stylesheet" href="./quiz_app.css">
+    <script src="https://kit.fontawesome.com/384ced2b60.js" crossorigin="anonymous"></script>
+
+ </head>
+
+ <body>
+   <div id="app">
+      <div id="initial">
+
+         <h2 >Test your java knowledge !</h2>
+         <ul id="initial-page">
+            <li><b>read each  question carefully </b> you'll be presented with one multiple-choice question at a time</li>
+            <li><b>select the correct answer </b>from given options</li>
+            <li>correct Answer will be revealed after choosing an option</li>
+            <li>final score will be shown at the end of quiz  <b>(1-8)</b></li>
+            
+
+
+
+         </ul>
+
+         
+
+
+      </div>
+      <p id="counter"> </p>
+   <!-- <h1>simple quiz</h1>
+   <hr>
+   <h2 id="question">question goes here</h2>
+   <div class="ans-buttons">
+      <button class="btn" id="option1" >Answer 1</button>
+      <button class="btn" id="option2" >Answer 2</button>
+      <button class="btn" id="option3" >Answer 3</button>
+      <button class="btn" id="option4" >Answer 4</button>
+      
+   </div>
+<button id="back">backslide</button> -->
+<button id="next" onclick="nextslide()">Next  <i class="fa-solid fa-arrow-right"></i></button> 
+<!-- <button id="startt">start</button> -->
+
+
+
+
+
+</div>
+<script src="quizapp.js"></script>
+
+
+
+
+
+   <!-- <script>
+
+const opt_question1=[
+   {text:"183",correct: false},
+   { text:"184",correct:false},
+   {text:"186",correct:true},
+   {text:"187",correct:false}
+   
+];
+
+const opt_question2=[
+   {text:"149",correct: false},
+   { text:"146",correct:false},
+   {text:"147",correct:false},
+   {text:"145",correct:true}
+   
+];
+const opt_question3=[
+   {text:"186",correct: false},
+   { text:"187",correct:true},
+   {text:"188",correct:false},
+   {text:"189",correct:false}
+   
+];
+const opt_question4=[
+   {text:"183",correct: false},
+   { text:"184",correct:false},
+   {text:"186",correct:true},
+   {text:"187",correct:false}
+   
+];
+const opt_question5=[
+   {text:"149",correct: false},
+   { text:"146",correct:false},
+   {text:"147",correct:false},
+   {text:"145",correct:true}
+   
+];
+const opt_question6=[
+   {text:"186",correct: false},
+   { text:"187",correct:false},
+   {text:"188",correct:true},
+   {text:"189",correct:false}
+   
+];
+const opt_question7=[
+   {text:"183",correct: false},
+   { text:"184",correct:false},
+   {text:"186",correct:true},
+   {text:"187",correct:false}
+   
+];
+
+
+
+
+questions=["question1","question2","question3","qustion4","qustion5","qustion6","question7"]
+// const question4=[
+//    {text:"183",correct: true},
+//    { text:"184",correct:false},
+//    {text:"184",correct:false},
+//    {text:"184",correct:false}
+   
+// ];
+const opt_questions_array=[opt_question1,opt_question2,opt_question3,opt_question4,opt_question5,opt_question6,opt_question7]
+// console.log(opt_questions_array[0][0].text);
+const option_buttons=document.querySelectorAll(".btn")
+let opt_question_array_index=0;
+
+
+
+
+
+   
+
+
+function check_clicked_options(current_option,number){
+    removeall();
+
+// let i=0;
+   console.log(number)
+
+//  while(i<1){
+   if(opt_questions_array[opt_question_array_index][number].correct==true){
+      // console.log(opt_questions_array[opt_question_array_index][number]);
+      console.log("true");
+     
+      document.getElementById(current_option).classList.add("green");
+   }
+   else{
+       option_buttons.forEach(element => {
+         element.classList.remove("red");
+         
+      });
+
+      document.getElementById(current_option).classList.add("red");
+      // document.getElementById(current_option).classList.add("green");
+   }
+  
+      
+    
+   
+// };
+// i++;
+};  
+// }
+function removeall(){
+   option_buttons.forEach(element => {
+      element.classList.remove("red","green");
+      
+   });
+   console.log(opt_question_array_index)
+   
+
+}
+
+   
+
+
+function display_question_options()
+{
+if(opt_question_array_index < opt_questions_array.length-1){
+let innerindex=0;
+document.getElementById("question").textContent=questions[opt_question_array_index];
+document.getElementById("option1").textContent=opt_questions_array[opt_question_array_index][innerindex].text;
+document.getElementById("option2").textContent=opt_questions_array[opt_question_array_index][innerindex+1].text;
+document.getElementById("option3").textContent=opt_questions_array[opt_question_array_index][innerindex+2].text;
+document.getElementById("option4").textContent=opt_questions_array[opt_question_array_index][innerindex+3].text;
+// check_clicked_options(opt_question_array_index);
+
+}
+opt_question_array_index++;
+
+
+removeall();
+}
+// display_question_options(0);
+
+
+
+
+
+
+
+   </script> -->
+ </body>
+ </html>
