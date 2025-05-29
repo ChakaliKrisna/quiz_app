@@ -137,7 +137,7 @@ body{
     color:#fff;
      font-weight: 800;
     border-radius: 10px 10px;
-    animation: sidebar 0.4s ease-in-out 1 normal none;
+    animation:  next_button 0.4s ease-in-out 1 normal none;
     /* transition: background-color 5s; */
     /* bottom: 5%; */
     margin-top: 40px;
@@ -209,6 +209,15 @@ body{
     
 }
 }
+
+@keyframes next_button {
+    0%{margin-top:80%;
+    }
+}
+
+
+
+
 #app #next:hover{
     /* margin:10px  */
    
