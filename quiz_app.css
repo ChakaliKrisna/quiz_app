@@ -18,7 +18,7 @@ body{
     width: 90%;
     max-width: 580px;
     margin:100px auto 0;
-    height: 62vh;
+    height: 68vh;
     /* min-height: fit-content; */
     overflow: hidden;
     border-radius: 10px;
@@ -50,6 +50,7 @@ body{
     height: fit-content;
     /* margin-left: 20%; */
     right: 0px ;
+    /* margin-top: 20px; */
     text-align: left;
     border-radius: 5px 5px;
     background-color: rgb(234, 230, 230);
@@ -127,7 +128,7 @@ body{
     position: relative;
 
     /* right: 10px; */
-    display: inline;
+    display:block;
     /* left: 500px; */
     padding:10px 20px;
      /* margin:10px 50px; */
@@ -138,6 +139,9 @@ body{
     border-radius: 10px 10px;
     animation: sidebar 0.4s ease-in-out 1 normal none;
     /* transition: background-color 5s; */
+    /* bottom: 5%; */
+    margin-top: 40px;
+    margin-bottom: 0%;
 
 
 } 
@@ -205,21 +209,6 @@ body{
     
 }
 }
-
-
-
-
-    
-
-
-
-
-
-
-
-
-
-
 #app #next:hover{
     /* margin:10px  */
    

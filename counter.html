@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="counter">30 </p>
+
+
+
+
+    <script>
+        // function timer(){
+    // const Startingseconds=30;
+    let time=30;
+    const couter=document.getElementById("counter");
+setInterval(updatetimer,1000);
+
+function updatetimer(){
+    time--;
+    document.getElementById("counter").textContent=time;
+    console.log(time);
+
+
+}
+
+
+    </script>
+</body>
+</html>

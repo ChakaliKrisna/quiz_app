@@ -26,6 +26,7 @@ answers=["false","7","1 2 3","Yes","Negative array size","List","false","start()
 
 
 let question_index=0;
+// let time=30;
 let correct_index=0;
 const options_array=[["true","false","null","0"],
 ["7","7.9","8","syntax error"],
@@ -46,9 +47,27 @@ let correct=0;
 let wrong=-1
 
 
+ let time=30;
 function nextslide(){
     // let time=30;
+    // let time=30;
 
+//  i++;
+    // const couter=document.getElementById("counter");
+// setInterval(updatetimer,1000);
+
+
+
+
+
+
+
+
+
+
+
+
+   
      // updatetime(time);
     document.getElementById("initial").style.display="none";
     console.log(question_index)
@@ -201,5 +220,7 @@ function clicked(Option) {
 }
 // setTimeout(nextslide,3000)
 
-   
+
+
+
 
