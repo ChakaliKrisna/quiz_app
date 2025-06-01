@@ -18,8 +18,8 @@ body{
     width: 90%;
     max-width: 580px;
     margin:100px auto 0;
-    height: 65vh;
-    /* min-height: fit-content; */
+    height: 68vh;
+    /* max-height: fit-content; */
     overflow: hidden;
     border-radius: 10px;
     border: 2px solid black;
@@ -140,7 +140,7 @@ body{
     animation:  next_button 0.6s ease-in-out 1 normal none;
     /* transition: background-color 5s; */
     /* bottom: 5%; */
-    /* margin-top: 40px; */
+    margin-top: 20px;
     margin-bottom: 0%;
 
 
