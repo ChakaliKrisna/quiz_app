@@ -275,7 +275,8 @@ body{
 }
 @media only screen and (max-width:600px) {
     #app{
-       min-height: fit-content;
+       min-height: 100vh;
+       
     }
     
     *{
