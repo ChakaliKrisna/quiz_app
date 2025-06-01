@@ -18,7 +18,7 @@ body{
     width: 90%;
     max-width: 580px;
     margin:100px auto 0;
-    height: 68vh;
+    height: 62vh;
     /* max-height: fit-content; */
     overflow: hidden;
     border-radius: 10px;
@@ -277,8 +277,17 @@ body{
     #app{
         height: fit-content;
     }
-    #app #next{
-        margin-top: 100px;
+    
+    *{
+        font-size: 0.8rem;
     }
+    #app .btn{
+        width:90% ;
+        font-size: 0.9rem;
+    }
+    #app{
+        padding: 20px 20px;
+    }
+
 }
  
